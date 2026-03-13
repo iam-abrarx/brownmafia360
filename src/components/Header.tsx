@@ -27,8 +27,8 @@ const Header = () => {
   if (!mounted) {
     return (
         <header className="sticky top-0 left-0 w-full z-[150] h-20 px-6 py-4 md:px-12 flex justify-between items-center bg-white border-b-2 border-black/5">
-            <div className="flex items-center gap-12">
-                <div className="relative w-14 h-14">
+            <div className="flex items-center gap-16">
+                <div className="relative w-16 h-16">
                     <Image src="/BM_LOGO_dark.png" alt="Logo" fill className="object-contain" priority />
                 </div>
             </div>
@@ -43,9 +43,9 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 left-0 w-full z-[150] h-20 px-6 py-4 md:px-12 flex justify-between items-center bg-white border-b-2 border-black/5 transition-all duration-300">
-      <div className="flex items-center gap-12">
+      <div className="flex items-center gap-16">
         <Link href="/" className="flex items-center group z-[110]">
-            <div className="relative w-42 h-24 transition-transform group-hover:scale-110">
+            <div className="relative w-16 h-16 transition-transform group-hover:scale-110">
                 <Image 
                     src="/BM_LOGO_dark.png" 
                     alt="Brown Mafia Logo" 
