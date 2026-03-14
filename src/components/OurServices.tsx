@@ -26,7 +26,7 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section id="our-services" className="w-full bg-white py-10">
+    <section id="our-services" className="w-full">
       <div className="w-full">
         <div className="services-banner rounded-none overflow-hidden px-10 py-16 md:px-16 md:py-20 lg:px-24 lg:py-28 flex flex-col items-start gap-12 lg:gap-20">
           
