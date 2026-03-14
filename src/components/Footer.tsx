@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="flex flex-col sm:flex-row gap-10 sm:gap-20 text-lg text-black/70">
             <div className="flex flex-col gap-1.5">
               <span>info@brownmafia.net</span>
-              <span>+880 170 3004 085</span>
+              <span>+880 176 2980 646</span>
             </div>
             <div className="flex flex-col gap-1.5">
               <span>Mohammadpur,</span>
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="w-full h-px bg-black/15"></div>
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-6 text-xs text-black/50 italic">
           <span>Privacy Policy / Accessibility Statement</span>
-          <span>© 2026 by Brown Mafia.</span>
+          <span>© by Brown Mafia.</span>
         </div>
 
       </div>

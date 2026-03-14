@@ -26,59 +26,36 @@ const Header = () => {
 
   if (!mounted) {
     return (
-        <header className="sticky top-0 left-0 w-full z-[150] h-20 px-6 py-4 md:px-12 flex justify-between items-center bg-white border-b-2 border-black/5">
+        <header className="sticky top-0 left-0 w-full z-[150] h-32 px-6 py-4 md:px-12 flex justify-between items-center bg-white border-b-2 border-black/5">
             <div className="flex items-center gap-16">
-                <div className="relative w-16 h-16">
+                <div className="relative w-32 h-32">
                     <Image src="/BM_LOGO_dark.png" alt="Logo" fill className="object-contain" priority />
                 </div>
-            </div>
-            <div className="p-4 -mr-4 flex flex-col gap-[7px]">
-                <span className="w-10 h-0.5 bg-black"></span>
-                <span className="w-7 h-0.5 bg-black ml-auto"></span>
-                <span className="w-10 h-0.5 bg-black"></span>
             </div>
         </header>
     );
   }
 
   return (
-    <header className="sticky top-0 left-0 w-full z-[150] h-20 px-6 py-4 md:px-12 flex justify-between items-center bg-white border-b-2 border-black/5 transition-all duration-300">
+    <header className="sticky top-0 left-0 w-full z-[150] h-32 px-6 py-4 md:px-12 flex justify-between items-center bg-white border-b-2 border-black/5 transition-all duration-300">
       <div className="flex items-center gap-16">
         <Link href="/" className="flex items-center group z-[110]">
-            <div className="relative w-16 h-16 transition-transform group-hover:scale-110">
-                <Image 
-                    src="/BM_LOGO_dark.png" 
-                    alt="Brown Mafia Logo" 
-                    fill
-                    className={`object-contain transition-opacity duration-500 ${isOpen ? 'opacity-0' : 'opacity-100'}`}
-                />
-                <Image 
-                    src="/BM_LOGO_light.png" 
-                    alt="Brown Mafia Logo" 
-                    fill
-                    className={`object-contain transition-opacity duration-500 ${isOpen ? 'opacity-100' : 'opacity-0'}`}
-                />
-            </div>
+          <div className="relative w-32 h-32 transition-transform group-hover:scale-110">
+            <Image 
+              src="/BM_LOGO_dark.png" 
+              alt="Brown Mafia Logo" 
+              fill
+              className={`object-contain transition-opacity duration-500 ${isOpen ? 'opacity-0' : 'opacity-100'}`}
+              priority
+            />
+            <Image 
+                src="/BM_LOGO_light.png" 
+                alt="Brown Mafia Logo" 
+                fill
+                className={`object-contain transition-opacity duration-500 ${isOpen ? 'opacity-100' : 'opacity-0'}`}
+            />
+          </div>
         </Link>
-
-        {/* Desktop Nav Bar */}
-        <nav className="hidden md:flex items-center gap-8 z-[110]">
-            {[
-              { label: 'About Us', href: '#about-us' },
-              { label: 'Services', href: '#our-services' },
-              { label: 'Testimonials', href: '#testimonials' },
-              { label: 'FAQ', href: '#faq' },
-              { label: 'Contact', href: '#contact' },
-            ].map((item) => (
-                <Link 
-                    key={item.label} 
-                    href={item.href} 
-                    className={`text-[11px] uppercase tracking-[0.2em] font-medium transition-colors duration-500 ${isOpen ? 'text-white/40 hover:text-white' : 'text-black/60 hover:text-black'}`}
-                >
-                    {item.label}
-                </Link>
-            ))}
-        </nav>
       </div>
 
       <button 
@@ -124,15 +101,6 @@ const Header = () => {
                     </li>
                 ))}
             </ul>
-            
-            <div className={`mt-20 flex gap-8 transition-opacity duration-1000 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
-                <div className="text-white/40 text-sm tracking-widest uppercase font-poppins">Socials</div>
-                <div className="flex gap-6 text-white text-sm font-poppins">
-                    <a href="#" className="hover:text-accent-orange transition-colors">Instagram</a>
-                    <a href="#" className="hover:text-accent-orange transition-colors">LinkedIn</a>
-                    <a href="#" className="hover:text-accent-orange transition-colors">Twitter</a>
-                </div>
-            </div>
         </nav>
       </div>
     </header>

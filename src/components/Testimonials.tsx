@@ -2,22 +2,22 @@ import React from 'react';
 
 const testimonials = [
   {
-    quote: "\u201CBrown Mafia\u2019s strategic guidance during RangX helped strengthen our brand strategy and align communications with organizational goals. Their insights consistently added measurable value across our initiatives.\u201D",
+    quote: "“Brown Mafia’s strategic guidance during RangX helped strengthen our brand strategy and align communications with organizational goals. Their insights consistently added measurable value across our initiatives.”",
     name: "Sabbir Nawazz",
     title: "Group Marketing Head",
     company: "Rangs Motors Limited",
   },
   {
-    quote: "\u201CBrown Mafia played a key role in R-Ventures 3.0, helping us translate strategy into actionable campaigns that truly engaged our communities. Their expertise in strategy, digital systems, and advocacy consistently delivered measurable results.\u201D",
+    quote: "“Brown Mafia played a key role in R‑Ventures 3.0, helping us translate strategy into actionable campaigns that genuinely engaged our communities. Their expertise in strategy, digital systems, and advocacy consistently delivered measurable results.”",
     name: "Shafayet Ahmed",
     title: "Brand Manager",
     company: "Robi Axiata Limited",
   },
   {
-    quote: "\u201CPartnering with Brown Mafia transformed how we approach our programs. Their guidance, supported by practical digital tools, strengthened our operations and helped us reach communities more effectively.\u201D",
+    quote: "“Partnering with Brown Mafia transformed how we approach our programs. Their guidance, supported by practical digital tools, strengthened our operations and helped us reach communities more effectively.”",
     name: "Hasib Hossain",
     title: "Director",
-    company: "Prayas Manobik Unnayan Society",
+    company: "Proyas Manobik Unnayan Society",
   },
 ];
 

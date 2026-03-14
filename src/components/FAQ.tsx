@@ -2,16 +2,16 @@ import React from 'react';
 
 const faqs = [
   {
-    question: "How does Brown Mafia assist organizations?",
-    answer: "Brown Mafia provides a variety of services, including strategic consulting, digital solutions, impact measurement, and capacity building to help organizations meet their goals.",
+    question: "1. How do you structure projects at Brown Mafia?",
+    answer: "We work in clear phases: understanding client needs, designing tailored strategies, implementing digital systems or campaigns, and evaluating outcomes. This ensures each initiative delivers actionable, measurable results.",
   },
   {
-    question: "Is Brown Mafia suitable for small NGOs?",
-    answer: "Yes! Our approach is flexible and scalable, ensuring that we can support organizations of all sizes in achieving their objectives.",
+    question: "2. How do you ensure your projects deliver measurable impact?",
+    answer: "Every project is guided by performance indicators and data-driven monitoring, allowing us to track progress and provide insights that help organizations achieve sustainable, real-world outcomes.",
   },
   {
-    question: "What kind of support do you offer?",
-    answer: "We offer comprehensive support tailored to your needs, including ongoing consultation and training to ensure your success.",
+    question: "3. How do you collaborate with client teams during engagements?",
+    answer: "We integrate closely with client teams, providing guidance, training, and digital tools to empower staff while maintaining accountability and operational effectiveness throughout the project lifecycle.",
   },
 ];
 
